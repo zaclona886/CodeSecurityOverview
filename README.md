@@ -75,7 +75,7 @@ To manually update/upload the extension, upload the `.vsix` file to the **[Micro
 3. **Share and install**: Share it with your organization and install it.
 
 ### Automated
-Use **[Azure DevOps Extension Tasks](https://marketplace.visualstudio.com/items?itemName=ms-devlabs.vsts-developer-tools-build-tasks)** to automate release and deploy inside a Azure DevOps.
+Use **[Azure DevOps Extension Tasks](https://marketplace.visualstudio.com/items?itemName=ms-devlabs.vsts-developer-tools-build-tasks)** for automated release and deploy if code is stored inside a Azure DevOps.
 
 ## How to Use
 Once the extension is installed you can access an Extension's view at Organization Settings in your Azure DevOps.
