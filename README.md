@@ -70,7 +70,7 @@ To manually update/upload the extension, upload the `.vsix` file to the **[Micro
     npm run package
    ```
 
-2. **Upload to Microsoft Marketplace**: After packaging, upload the `.vsix` file to the Microsoft Marketplace through the Azure DevOps portal.
+2. **Upload to Microsoft Marketplace**: After packaging, upload the `.vsix` file to the **[Microsoft Extension Marketplace](https://marketplace.visualstudio.com/)** through the Azure DevOps portal.
 
 3. **Share and install**: Share it with your organization and install it.
 
