@@ -80,4 +80,4 @@ Use **[Azure DevOps Extension Tasks](https://marketplace.visualstudio.com/items?
 ## How to Use
 Once the extension is installed you can access an Extension's view at Organization Settings in your Azure DevOps.
 
-You may also need to allow certein permisions to the installed Extenstion, to allow it to acces API endpoints.
+You may also need to allow certain permisions to the installed Extenstion, to allow it to access API endpoints.
