@@ -1,0 +1,48 @@
+{
+    "manifestVersion": 1,
+    "id": "PavolPetrovicCodeSecurityOverview",
+    "name": "Code Security Overview",
+    "publisher": "PavolPetrovic",
+    "version": "0.0.1",
+    "description": "Code Security Overview",
+    "public": false,
+    "categories": ["Azure Repos"],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "static/images/logo.png"
+    },
+    "demands": [
+        "api-version/3.0"
+    ],
+    "scopes": [
+      "vso.code",
+      "vso.advsec"
+    ],
+    "contributions": [
+        {
+          "id": "home-page",
+          "type": "ms.vss-web.hub",
+          "targets": [
+              "ms.vss-web.collection-admin-hub-group"
+          ],
+          "properties": {
+              "name": "Code Security Overview",
+              "uri": "dist/home/home.html"
+          }
+        }
+      ],
+      "files": [
+        {
+          "path": "dist",
+          "addressable": true
+        },
+        {
+          "path": "static",
+          "addressable": true
+        }
+      ]
+}     
